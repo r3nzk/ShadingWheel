@@ -32,6 +32,9 @@ move the mouse in any direction and release the key to apply selected shading mo
 You can further customize some settings in the preferences window:
 ![wheel2](https://github.com/user-attachments/assets/00ffb0f6-3dd6-4437-bd4c-818d215c0bc0)
 
+### Tested Versions:
+> 2022.3.53f1, Unity 6000.0.44f1.
+ 
 ## To do
 - Enhance wheel indicator sprites/transformation.
 - Add support for unity shortcut
