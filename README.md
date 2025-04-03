@@ -11,7 +11,7 @@ A radial menu heavily inspired by Blender shading wheel to Unity Editor, it allo
 2. Click the **+** button and select **Add package from git URL...**
 3. Paste this URL and add package:
 ```
-https://github.com/R3nzk/ShadingWheel.git
+https://github.com/r3nzk/ShadingWheel.git
 ```
 
 #### Option 2: Unity Package
