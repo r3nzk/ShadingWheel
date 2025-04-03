@@ -1,0 +1,32 @@
+{
+  "name": "com.renzk.shadingwheel",
+  "displayName": "Shading Wheel",
+  "version": "0.5.0",
+  "unity": "2020.3",
+  "description": "Blender-style radial menu for quick shading mode switching in Unity's Scene View. Hold Z and drag to change modes instantly.",
+  "keywords": [
+    "editor",
+    "productivity",
+    "shading",
+    "wheel",
+    "radial",
+    "pie menu",
+    "shortcut",
+    "scene view"
+  ],
+  "category": "Editor Tools",
+  "author": {
+    "name": "Renzk",
+    "url": "https://github.com/r3nzk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3nzk/ShadingWheel.git"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/r3nzk/ShadingWheel#readme",
+  "changelogUrl": "https://github.com/r3nzk/ShadingWheel/releases",
+  "bugs": {
+    "url": "https://github.com/r3nzk/ShadingWheel/issues"
+  }
+}
