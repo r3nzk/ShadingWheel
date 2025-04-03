@@ -43,17 +43,22 @@ public class ShadingWheel
         wheelIndicatorTexture = LoadTextureByName("wheel_indicator");
     }
 
-    private static Texture2D LoadTextureByName(string textureName) {
-        string[] guids = AssetDatabase.FindAssets($"{textureName} t:texture2d");
-        if(guids.Length == 0){
-            Debug.LogError($"{textureName} texture missing! Shading wheel will use primitive WireDisc instead!");
-            return null;
+    private static Texture2D LoadTextureByName(string textureName){
+        Texture2D tex = Resources.Load<Texture2D>(textureName);
+        if(tex != null) return tex;
+
+        //Package search
+        tex = (Texture2D)AssetDatabase.LoadAssetAtPath($"Packages/com.renzk.shadingwheel/Content/{textureName}.png", typeof(Texture2D));
+        if(tex != null) return tex;
+
+        string[] guids = AssetDatabase.FindAssets(textureName + " t:Texture2D");
+        if(guids.Length > 0){
+            string path = AssetDatabase.GUIDToAssetPath(guids[0]);
+            return AssetDatabase.LoadAssetAtPath<Texture2D>(path);
         }
-        
-        string path = AssetDatabase.GUIDToAssetPath(guids[0]);
-        Texture2D texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
-        
-        return texture;
+
+        Debug.LogWarning($"Sprite {textureName} not found in package or assets, fallback to primitive discs");
+        return null;
     }
     
 
