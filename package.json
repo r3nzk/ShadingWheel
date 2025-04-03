@@ -1,7 +1,7 @@
 {
   "name": "com.renzk.shadingwheel",
   "displayName": "Shading Wheel",
-  "version": "0.5.0",
+  "version": "0.1.0",
   "unity": "2020.3",
   "description": "Blender-style radial menu for quick shading mode switching in Unity's Scene View. Hold Z and drag to change modes instantly.",
   "keywords": [
