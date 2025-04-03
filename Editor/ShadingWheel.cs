@@ -51,6 +51,7 @@ public class ShadingWheel
         tex = (Texture2D)AssetDatabase.LoadAssetAtPath($"Packages/com.renzk.shadingwheel/Content/{textureName}.png", typeof(Texture2D));
         if(tex != null) return tex;
 
+        //AssetDatabase search
         string[] guids = AssetDatabase.FindAssets(textureName + " t:Texture2D");
         if(guids.Length > 0){
             string path = AssetDatabase.GUIDToAssetPath(guids[0]);
