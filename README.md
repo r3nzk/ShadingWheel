@@ -20,8 +20,8 @@ https://github.com/r3nzk/ShadingWheel.git
 
 ## Features
 - Customizable Radial menu for quick shading mode selection.
-- Responsive visual indicators.
-- Fully integrated into the Scene View.
+- Visual indicators.
+- Works directly in Scene View.
 - Settings window with preview, radius, deadzone, etc.
 
 ## Usage
