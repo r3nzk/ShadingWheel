@@ -1,5 +1,5 @@
 # Shading Wheel for Unity 
-[![Github license](https://img.shields.io/github/license/r3nzk/ShadingWheel.svg?style=flat-square)](LICENSE) [![Unity 2019.4+](https://img.shields.io/badge/Unity-2020.3+-2296F3.svg?style=flat-square)](#) [![GitHub release](https://img.shields.io/github/v/release/R3nzk/ShadingWheel?style=flat-square&label=release)](https://github.com/R3nzk/ShadingWheel/releases) ![Version](https://img.shields.io/badge/version-0.1-blue.svg?style=flat-square)
+[![Github license](https://img.shields.io/github/license/r3nzk/ShadingWheel.svg)](LICENSE) [![Unity 2019.4+](https://img.shields.io/badge/Unity-2020.3+-2296F3.svg)](#) [![GitHub release](https://img.shields.io/github/v/release/R3nzk/ShadingWheel?style=label=release)](https://github.com/R3nzk/ShadingWheel/releases) ![Version](https://img.shields.io/badge/version-0.1-blue.svg)
 
 ![wheel_demo](https://github.com/user-attachments/assets/194bae79-43a8-480a-8a5d-f9649b001e7f)
 
